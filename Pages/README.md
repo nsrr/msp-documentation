@@ -25,7 +25,7 @@ Data have been de-identified by removing all Protected Health Information (PHI) 
 Many of the remaining 84 files underwent procedures to interpolate or delete portions of fetal data, more information can be found in the publications listed in **Citations and acknowledgments**. 
 
 <details>
-  <summary>22 PSG's of Insufficent Quality:</summary>
+  <summary>Expand to see the list of of 22 PSGs of insufficient quality</summary>
 
 - S001 <br>
 - 016 <br>
@@ -75,7 +75,7 @@ Users must include the following text in any Acknowledgements:
 
 ## Changelog
 
-*January 2023*
+*February 2023*
 
 - Make MSP dataset available for data requests
 
