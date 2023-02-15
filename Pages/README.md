@@ -22,33 +22,33 @@ Data have been de-identified by removing all Protected Health Information (PHI) 
 
 **[ECG](:files_path:/ECG)** were collected using Monica AN24 (Monica Healthcare, Nottingham UK). Fetal ECG data, particularly in pregnancies characterized by high BMI, are prone to signal artifact. In 22 of the PSGs (see below), fetal data were of insufficient quality to quantify fetal measures. However, files with only maternal PSG data are also included since the topic of maternal sleep during pregnancy is currently an area of significant inquiry. 
 
-Many of the remaining 84 files underwent procedures to interpolate or delete portions of fetal data, more information can be found in the publications under **relevant citations**. 
+Many of the remaining 84 files underwent procedures to interpolate or delete portions of fetal data, more information can be found in the publications listed in **Citations and acknowledgments**. 
 
 <details>
   <summary>22 PSG's of Insufficent Quality:</summary>
 
 - S001 <br>
 - 016 <br>
-- 018 
-- 020 
-- 021 
-- 022
-- 023 
-- 032 
-- 048 
-- 051 
-- 061 
-- 063
-- 072 
-- 079 
-- 080 
-- 086 
-- 093 
-- 094
-- 097 
-- 127 
-- 130 
-- 131 
+- 018  <br>
+- 020  <br>
+- 021  <br>
+- 022 <br>
+- 023  <br>
+- 032  <br>
+- 048  <br>
+- 051  <br>
+- 061  <br>
+- 063 <br>
+- 072  <br>
+- 079  <br>
+- 080  <br>
+- 086  <br>
+- 093  <br>
+- 094 <br>
+- 097  <br>
+- 127  <br>
+- 130  <br>
+- 131  <br>
 
 </details>    
 
@@ -57,15 +57,16 @@ Many of the remaining 84 files underwent procedures to interpolate or delete por
 
 The MSPF dataset is only available for non-commercial use.
 
-## Citation and acknowledgement
+## Citations and acknowledgements
 
 When using this dataset, users must cite the following:
 
+> [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
+>
 > [DiPietro JA, Raghunathan RS, Wu HT, Bai J, Watson H, Sgambati FP, Henderson JL, Pien GW. Fetal heart rate during maternal sleep. Dev Psychobiol. 2021 Jul;63(5):945-959. doi: 10.1002/dev.22118. Epub 2021 Mar 25. PMID: 33764539.](https://pubmed.ncbi.nlm.nih.gov/33764539/)
 >
 > [DiPietro JA, Bai J, Sgambati FP, Henderson JL, Watson H, Raghunathan RS, Pien GW. Fetal heart rate responses to maternal sleep-disordered breathing. Am J Obstet Gynecol. 2022 Sep 29:S0002-9378(22)00770-0. doi: 10.1016/j.ajog.2022.09.037. Epub ahead of print. PMID: 36183777.](https://pubmed.ncbi.nlm.nih.gov/36183777/)
->
-> [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
+
 
 Users must include the following text in any Acknowledgements:
 
