@@ -12,7 +12,7 @@ Sleep study scoring was based on Berry RB, Brooks R, Gamaldo CE, et al. The AASM
 
 ## Data de-identification
 
-Data have been de-identified by removing all Protected Health Information (PHI) such as name, date of birth, and any other contact details. Each individual is identified only by a random id variable.
+Data have been de-identified by removing all Protected Health Information (PHI) such as name, date of birth, and any other contact details. Each individual is identified only by a random [id](https://sleepdata.org/datasets/msp/variables/id) variable.
 
 ## Data overview
 
