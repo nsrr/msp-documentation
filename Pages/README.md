@@ -16,16 +16,19 @@ Data have been de-identified by removing all Protected Health Information (PHI) 
 
 ## Data overview
 
-**[PSG signals](:files_path:/PSG)** were collected using RemLogic 1.3 N7000 data acquisition system (Natus Medical, Broomfield, CO) 
+### PSG
+[PSG signals](:files_path:/PSG) were collected using RemLogic 1.3 N7000 data acquisition system (Natus Medical, Broomfield, CO) 
 
-**[Annotations](:files_path:/Annotations)** were exported by RemLogic into XML files. 
+### Annotations
+[Annotation files](:files_path:/Annotations) were exported by RemLogic into XML files. 
 
-**[ECG](:files_path:/ECG)** were collected using Monica AN24 (Monica Healthcare, Nottingham UK). Fetal ECG data, particularly in pregnancies characterized by high BMI, are prone to signal artifact. In 22 of the PSGs (see below), fetal data were of insufficient quality to quantify fetal measures. However, files with only maternal PSG data are also included since the topic of maternal sleep during pregnancy is currently an area of significant inquiry. 
+### ECG
+[ECGs](:files_path:/ECG) were collected using Monica AN24 (Monica Healthcare, Nottingham UK). Fetal ECG data, particularly in pregnancies characterized by high BMI, are prone to signal artifact. In 22 of the PSGs (see below), fetal data were of insufficient quality to quantify fetal measures. However, files with only maternal PSG data are also included since the topic of maternal sleep during pregnancy is currently an area of significant inquiry. 
 
 Many of the remaining 84 files underwent procedures to interpolate or delete portions of fetal data, more information can be found in the publications listed in **Citations and acknowledgments**. 
 
 <details>
-  <summary>Expand to see the list of of 22 PSGs of insufficient quality</summary>
+  <summary>Expand to see the list of 22 PSGs of insufficient quality</summary>
 
 - S001 <br>
 - 016 <br>
