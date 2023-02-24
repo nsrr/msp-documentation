@@ -28,30 +28,33 @@ Data have been de-identified by removing all Protected Health Information (PHI) 
 Many of the remaining 84 files underwent procedures to interpolate or delete portions of fetal data, more information can be found in the publications listed in **Citations and acknowledgments**. 
 
 <details>
-  <summary>Expand to see the list of 22 PSGs of insufficient quality</summary>
+  <summary>See list of 22 PSGs with insufficient fetal ECG quality:</summary>
 
-- S001 <br>
-- 016 <br>
-- 018  <br>
-- 020  <br>
-- 021  <br>
-- 022 <br>
-- 023  <br>
-- 032  <br>
-- 048  <br>
-- 051  <br>
-- 061  <br>
-- 063 <br>
-- 072  <br>
-- 079  <br>
-- 080  <br>
-- 086  <br>
-- 093  <br>
-- 094 <br>
-- 097  <br>
-- 127  <br>
-- 130  <br>
-- 131  <br>
+  <table>
+<tr><td> S001 </td></tr>
+<tr><td> 016 </td></tr>
+<tr><td> 018 </td></tr>
+<tr><td> 020 </td></tr>
+<tr><td> 021 </td></tr>
+<tr><td> 022 </td></tr>
+<tr><td> 023 </td></tr>
+<tr><td> 032 </td></tr>
+<tr><td> 048 </td></tr>
+<tr><td> 051 </td></tr>
+<tr><td> 061 </td></tr>
+<tr><td> 063 </td></tr>
+<tr><td> 072 </td></tr>
+<tr><td> 079 </td></tr>
+<tr><td> 080 </td></tr>
+<tr><td> 086 </td></tr>
+<tr><td> 093 </td></tr>
+<tr><td> 094 </td></tr>
+<tr><td> 097 </td></tr>
+<tr><td> 127 </td></tr>
+<tr><td> 130 </td></tr>
+<tr><td> 131 </td></tr>
+
+</table>
 
 </details>    
 
