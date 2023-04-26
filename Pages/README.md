@@ -80,7 +80,7 @@ The harmonized-dataset contains many of the most frequently used demographic and
 <tr><td><a href=":variables_path:/nsrr_ttldursp_f1">nsrr_ttldursp_f1</a></td><td>Total Sleep Duration: the interval between sleep onset and sleep offset while the participant is asleep from polysomnography</td></tr>
 <tr><td><a href=":variables_path:/nsrr_pctdursp_s3_f1">nsrr_pctdursp_s3_f1</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in stage 3/4 from polysomnography</td></tr>
 <tr><td><a href=":variables_path:/nsrr_pctdursp_sr_f1">nsrr_pctdursp_sr_f1</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in REM from polysomnography</td></tr>
-<tr><td><a href=":variables_path:/nsrr_ttleffbd_f1">nsrr_ttleffbd_f1</a></td><td>Sleep Efficiency: the ratio of total sleep duration (i.e., total sleep time) to in-bed period (i.e., time in bed) from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_effsp_f1">nsrr_effsp_f1</a></td><td>Sleep Efficiency: the ratio of total sleep duration (i.e., total sleep time) to in-bed period (i.e., time in bed) from polysomnography</td></tr>
 <tr><td><a href=":variables_path:/nsrr_ahi_hp3r_aasm15">nsrr_ahi_hp3r_aasm15</a></td><td>Apnea-Hypopnea Index : (All apneas + hypopneas with >= 3% oxygen desaturation) / hour of sleep </td></tr>
   </table>
 
