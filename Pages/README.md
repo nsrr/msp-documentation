@@ -60,9 +60,9 @@ Data have been de-identified by removing all Protected Health Information (PHI) 
 ## Data overview
 
 ### Covariate/phenotype datasets
-[Covariate CSV files](:files_path:/datasets) (apples-dataset-0.1.0.csv and apples-harmonized-dataset-0.1.0.csv) contain data on 1,516 subjects from up to seven research visits. The [ID](:variables_path:/id) column is the unique MSP identifier and the [fileid](:variables_path:/fileid) column links covariate datasets to diagnostic PSG files.
+[Covariate CSV files](:files_path:/datasets) (msp-dataset-0.1.0.csv and msp-harmonized-dataset-0.1.0.csv) contain data on 106 subjects. The [id](:variables_path:/id) column is the unique MSP identifier and the [fileid](:variables_path:/fileid) column links covariate datasets to diagnostic PSG files.
 
-The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., 1=Female, 0=Male), which are described in the **domains** data dictionary file.
+The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 0=No, 1=Yes), which are described in the **domains** data dictionary file.
 
 The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/msp-data-dictionary). 
 
@@ -78,10 +78,10 @@ The harmonized-dataset contains many of the most frequently used demographic and
     <tr><td><a href=":variables_path:/nsrr_race">nsrr_race</a></td><td>Subject race</td></tr>  
 <tr><td><a href=":variables_path:/nsrr_current_smoker">nsrr_current_smoker</a></td><td> Currently smoking cigarettes</td></tr>
 <tr><td><a href=":variables_path:/nsrr_ttldursp_f1">nsrr_ttldursp_f1</a></td><td>Total Sleep Duration: the interval between sleep onset and sleep offset while the participant is asleep from polysomnography</td></tr>
-<tr><td><a href=":variables_path:/nsrr_pctdursp_s3">nsrr_pctdursp_s3</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in stage 3/4 from polysomnography</td></tr>
-<tr><td><a href=":variables_path:/nsrr_pctdursp_sr">nsrr_pctdursp_sr</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in REM from polysomnography</td></tr>
-<tr><td><a href=":variables_path:/nsrr_ttleffsp_f1">nsrr_ttleffsp_f1</a></td><td>Sleep Efficiency: the ratio of total sleep duration (i.e., total sleep time) to in-bed period (i.e., time in bed) from polysomnography</td></tr>
-<tr><td><a href=":variables_path:/nsrrahi_hp3r_aasm15">nsrrahi_hp3r_aasm15</a></td><td>Apnea-Hypopnea Index : (All apneas + hypopneas with >= 3% oxygen desaturation) / hour of sleep </td></tr>
+<tr><td><a href=":variables_path:/nsrr_pctdursp_s3_f1">nsrr_pctdursp_s3_f1</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in stage 3/4 from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_pctdursp_sr_f1">nsrr_pctdursp_sr_f1</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in REM from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_ttleffbd_f1">nsrr_ttleffbd_f1</a></td><td>Sleep Efficiency: the ratio of total sleep duration (i.e., total sleep time) to in-bed period (i.e., time in bed) from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_ahi_hp3r_aasm15">nsrr_ahi_hp3r_aasm15</a></td><td>Apnea-Hypopnea Index : (All apneas + hypopneas with >= 3% oxygen desaturation) / hour of sleep </td></tr>
   </table>
 
 </details>  
@@ -93,8 +93,8 @@ There are 106 subjects with PSG data. Each subject has raw signal data (EDF) and
 <table>
    <tr><td><b>File type</b></td><td><b>File path</b></td><td><b>Description</b></td></tr>
    <tr><td><b>Harmonized</b></td><td>  <a href=":files_path:/polysomnography">/polysomnography</a>
-    </td><td> Files processed and harmonized (from the <b>As is</b> file set) to match NSRR signal and annotation naming standards. The processing steps have been documented here (<a href="https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/msp">https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/msp </a>). </td></tr>
-   <tr><td><b>As is</b></td><td>  <a href=":files_path:/original/PSG Exports">/original/PSG Exports</a>  </td><td> Files directly from the MSP group, with only dates removed from the EDF and annotation files. </td></tr>
+    </td><td> Files processed and harmonized (from the <b>As is</b> file set) to match NSRR signal and annotation naming standards. The processing steps have been documented here (<a href="https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/msp">https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/msp</a>). </td></tr>
+   <tr><td><b>As is</b></td><td>  <a href=":files_path:/original/PSG">/original/PSG</a></td><td> Files directly from the MSP group, with only dates removed from the EDF and annotation files. </td></tr>
 </table>
 
 
