@@ -60,7 +60,7 @@ Data have been de-identified by removing all Protected Health Information (PHI) 
 ## Data overview
 
 ### Covariate/phenotype datasets
-[Covariate CSV files](:files_path:/datasets) (msp-dataset-0.1.0.csv and msp-harmonized-dataset-0.1.0.csv) contain data on 106 subjects. The [id](:variables_path:/id) column is the unique MSP identifier and the [fileid](:variables_path:/fileid) column links covariate datasets to diagnostic PSG files.
+[Covariate CSV files](:files_path:/datasets) (msp-dataset-0.1.1.csv and msp-harmonized-dataset-0.1.1.csv) contain data on 106 subjects. The [id](:variables_path:/id) column is the unique MSP identifier and the [fileid](:variables_path:/fileid) column links covariate datasets to diagnostic PSG files.
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 0=No, 1=Yes), which are described in the **domains** data dictionary file.
 
